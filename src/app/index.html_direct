@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>web pack andgularjs boilerplate</title>
+	<link rel="stylesheet" href="">
+	<script src="/bundle.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<section>
+		<div>
+			<a href="/#/client">client route</a>
+		</div>
+		<div>
+			<a href="/#/vendor">vendor route</a>
+		</div>
+		<div>
+			<a href="/">back to site root</a>
+		</div>
+	</section>
+
+	<div ng-view></div>
+</body>
+</html>

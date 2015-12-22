@@ -1,0 +1,26 @@
+{
+  "name": "webpack_tet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base ../dist --hot --progress --colors"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-route": "^1.4.8",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.0",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^1.7.0",
+    "node-sass": "^3.4.2",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9"
+  }
+}
